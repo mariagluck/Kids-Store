@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Amatic SC";
+  margin-left: 20px;
+}
+h2 {
+  font-family: "Amatic SC";
+  margin-left: 20px;
+}
+.collection {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+}
+.row {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: salmon;
+}
+#bottom {
+  font-family: "Amatic SC";
+  margin-left: 20px;
+  color: black;
+  font-size: 20px;
+}
+.frame {
+  border-style: solid;
+  border-width: 1px;
+  border-color: salmon;
+  /* maybr I turn this shadow off... 
+  box-shadow: 5px 5px 5px rgb(209, 107, 96);}*/
+}
+
+@media (max-width: 767.98px) {
+  nav {
+    margin: auto;
+  } 
+
+  h1 {
+    position: absolute;
+    top: 15%;
+    margin-top: 10px;
+  }
+  .collection {
+    margin-left: 40px;
+    position: absolute;
+    top: 200px;
+  }
+
+  #bottom {
+    position: fixed;
+    bottom: 3px;
+  }
+  
+}

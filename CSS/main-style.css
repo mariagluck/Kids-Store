@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Amatic SC';
+    src: url(../fonts/AmaticSC-Regular.ttf);
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    background-image: url('../img/background_HowlMini.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+body:hover {
+    background-image: url('../img/background_HowlMini_2.jpg');
+}
+
+nav {   
+    height: 54px;
+    margin: -8px -8px 10px -8px;
+    float: right;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    
+}
+
+nav ul li a {    
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: tranparent;
+    text-shadow: 1px 1px salmon;   
+}
+
+#active {
+    text-decoration: line-through;
+}
+
+nav ul li a:active {
+    color: #fc9399;
+    background-color: transparent;
+}
