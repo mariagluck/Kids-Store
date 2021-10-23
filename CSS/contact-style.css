@@ -82,9 +82,12 @@ input[type=submit], input[type=submit], input[type=reset] {
     position: absolute;
     top: 15%;
   }
+  form {
+    margin-left: 35px;
+  }
   label,
   input[type=text],
   textarea {
-    width: 55%;
+    width: 80vw;
   }
 }

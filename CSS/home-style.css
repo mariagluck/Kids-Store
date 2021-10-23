@@ -11,7 +11,7 @@ body {
 }
 
 .image {
-  width: 40%;
+  width: 30%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -40,15 +40,19 @@ body {
 @media (max-width: 1024px) { 
   nav {
     margin: auto;
+  } 
+  
+  .image{
+    width: 50%;
   }
-    .overlay {
-      position: absolute;
-      top: 85%;
-      opacity: 1;
-    }
-    .container:hover .overlay {
-      opacity: 0;
-    }
+  .overlay {
+    position: absolute;
+    top: 85%;
+    opacity: 1;
+  }
+  .container:hover .overlay {
+    opacity: 0;
+  }
  }
 
  @media (max-width: 767.98px) { 
